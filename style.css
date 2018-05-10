@@ -39,7 +39,7 @@ canvas {
   height: 43px;
   border-radius: 10px;
   border-width: 2.25px;
-  margin-left: 610px;
+  margin-left: 560px;
   margin-top: 20px;
   cursor: pointer;
   transition: all 0.2s
@@ -97,4 +97,24 @@ canvas {
   height: 100px;
   cursor: pointer;
   border-style: solid;
+}
+
+.save {
+    font-family: Helvetica;
+  font-size: 14px;
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  width: 100px;
+  height: 43px;
+  border-radius: 10px;
+  border-width: 2.25px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.save:hover {
+    transform: scale(1.2);
+    background-color: red;
+    color: white;
 }
