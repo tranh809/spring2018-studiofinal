@@ -1,0 +1,100 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: Helvetica;
+  margin: 2em;
+}
+
+h1 {
+  font-size: 2em;
+  font-style: italic;
+  color: #1d0cef;
+}
+
+#canvasDiv {
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+/*   background-image: url(...); */
+  width: 900px;
+  height: 500px;
+  margin-left: 220px;
+  cursor: url(https://cdn.glitch.com/dc5d5ba9-9f09-4bbd-b81b-26166cf65163%2Fcursor32.png) 0 32, auto;
+}
+
+canvas {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: local;
+}
+
+.reloader {
+  font-family: Helvetica;
+  font-size: 14px;
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  width: 100px;
+  height: 43px;
+  border-radius: 10px;
+  border-width: 2.25px;
+  margin-left: 610px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: all 0.2s
+}
+
+.reloader:hover {
+    transform: scale(1.2);
+    background-color: black;
+    color: white;
+}
+
+.black {
+  position: absolute;
+  border-radius: 50%;
+  background-color: black;
+  left: 80px;
+  top: 50px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  border-style: solid;
+}
+
+.red {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #df4b26;
+  left: 80px;
+  top: 170px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  border-style: solid;
+}
+
+.blue {
+  position: absolute;
+  border-radius: 50%;
+  background-color: blue;
+  left: 80px;
+  top: 290px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  border-style: solid;
+}
+
+.yellow {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #fff700;
+  left: 80px;
+  top: 410px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  border-style: solid;
+}
